@@ -12,6 +12,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.6.4",
     "jquery": "^3.3.1",
     "require-dir": "^1.2.0"
   },
