@@ -1,0 +1,38 @@
+/*------------------------------------*\
+  #TOOLS
+\*------------------------------------*/
+
+@import "tools/_reset.scss";
+@import "tools/_include-media.scss";
+@import "_variables.scss";
+
+@import "tools/_typography.scss";
+@import "tools/_medias.scss";
+@import "tools/_global.scss";
+
+
+/*------------------------------------*\
+  #EXTERNAL
+\*------------------------------------*/
+
+// @import "external/_flickity.scss";
+
+
+/*------------------------------------*\
+  #BASE-STYLES
+\*------------------------------------*/
+
+html {
+  font-size: 18px;
+  @include media("<sm") {
+    font-size: 16px;
+  }
+}
+
+body {
+  @extend %font-body;
+  background: $body-color;
+  color: $base-color;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
