@@ -10,9 +10,20 @@ Clone or download this repo into your theme folder. Then install all the package
 npm install
 ```
 
-### Requirements
+Edit proxy url in gulpfile.js at line 72
+
+```js
+browserSync.init({
+    proxy: "yourprojectname.test",
+    port: 8080,
+    open: false
+  });
+```
+
+# Requirements
 
 - Node.JS
+- Gulp
 
 ## Usage
 
